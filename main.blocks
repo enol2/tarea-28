@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="WbG4FX[,!J2Tz%i}s6{Y">Mano</variable><variable id="sOpAv9IsrS^n0-d=K5Fq">fahrenheit</variable></variables><block type="device_button_event" id="vn8L*88XT!;dKOnXyk``" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="controls_if" id=":LPff/j8z(%u#2YcxsHs"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="j6f~RVB*Kepwnbpxun)B"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="cX)Q(|UcroIO!)}|s,HL"/></value><value name="B"><shadow type="math_number" id="ML8I+sJgA~z~{]fq#0GF"><field name="NUM">175</field></shadow></value></block></value><statement name="DO0"><block type="device_led_enable" id="]Q1vAv%,*,dm[Xos|W#="><value name="on"><shadow type="logic_boolean" id="Dt=tQUiax2-%vjWnSQ5-"><field name="BOOL">TRUE</field></shadow></value><next><block type="device_show_leds" id="lmG;`lmx.S7d%(5cFl,_"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></next></block></statement></block></statement></block><block type="device_button_event" id="/u,^=)][7)^Eem7Vu!S*" x="8" y="432"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_clear_display" id="A~mnw`^)6[_2S(;Q]e%L"/></statement></block></xml>
